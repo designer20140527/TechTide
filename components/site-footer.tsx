@@ -7,7 +7,10 @@ export default function SiteFooter() {
     { name: "Features", href: "#features" },
     { name: "Tokenomics", href: "#tokenomics" },
     { name: "Roadmap", href: "#roadmap" },
-    { name: "Gitbook", href: "#" }
+    { name: "Gitbook", 
+      href: "https://docs.techtide.vip/",
+      target: "_blank",
+      rel: "noopener noreferrer"  }
   ]
   
   return (
