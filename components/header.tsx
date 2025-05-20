@@ -86,8 +86,8 @@ export default function Header() {
             Roadmap
           </Link>
         </nav>
-
-        <Button className="rounded-full bg-black text-white hover:bg-gray-800 text-xs xs:text-sm sm:text-base px-2 xs:px-3 sm:px-6 py-1 xs:py-2 h-auto min-w-[60px]">Gitbook</Button>
+        <a href="https://docs.techtide.vip/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', display: 'inline-block' }}>
+        <Button className="rounded-full bg-black text-white hover:bg-gray-800 text-xs xs:text-sm sm:text-base px-2 xs:px-3 sm:px-6 py-1 xs:py-2 h-auto min-w-[60px]">Gitbook</Button></a>
       </motion.div>
     </header>
   )
